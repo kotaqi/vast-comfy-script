@@ -3,17 +3,10 @@ apt-get update
 apt-get install -y git python3-pip python3-venv
 python3 -m venv /venv
 source /venv/bin/activate
-
-# Token placeholders - replace these with your actual tokens
 GITHUB_TOKEN="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"
 HF_TOKEN="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"
 CIVITAI_TOKEN="17f66905819af71b6933839889bfd3c9"
-
-# Export tokens for use in commands
-export GITHUB_TOKEN
-export HF_TOKEN
-export CIVITAI_TOKEN
-
+export GITHUB_TOKEN HF_TOKEN CIVITAI_TOKEN
 ### FUNCTIONS ###
 
 provisioning_get_apt_packages() {
