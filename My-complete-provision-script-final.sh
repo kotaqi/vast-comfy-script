@@ -1,8 +1,8 @@
 #!/bin/bash
-
-# Environment setup
+apt-get update
+apt-get install -y git python3-pip python3-venv
+python3 -m venv /venv
 source /venv/bin/activate
-COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Token placeholders - replace these with your actual tokens
 GITHUB_TOKEN="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"
