@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Environment setup
-source /venv/main/bin/activate
+source /venv/bin/activate
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Token placeholders - replace these with your actual tokens
